@@ -7,7 +7,7 @@ class OpenaiClient {
 
     async completion(messages) {
         const requestData = {
-            model: "gpt-4o-mini-2024-07-18",
+            model: "gpt-3.5-turbo",
             messages,
         };
 
